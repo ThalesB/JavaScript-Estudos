@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html lang="pt-br">
+<head>
+<meta charset="utf8">
+</head>
+<body>
+
+    <title> Evento click2 ! </title>
+
+<input type="text" name="nome-completo" id="nome-completo" placeholder="Nome Completo!"/>
+
+<br/>
+
+<input type="button" id="btn-exibir-nome" value="Exibir Nome"/>
+
+<hr/> <!-- sublinhado -->
+<script type="text/javascript">
+document.getElementById("btn-exibir-nome").addEventListener("click", function(){
+    const nomeCompleto =  document.getElementById('nome-completo').value;
+    alert('O Nome Completo é : '+ nomeCompleto);
+
+})
+
+</script>
+
+</body>
+
+
+</html>

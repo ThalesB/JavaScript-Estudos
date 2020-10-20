@@ -1,0 +1,22 @@
+</html>
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+     <p> mudando a imagem em um click </p>
+    
+    <img src="https://github.com/gabrieldarezzo/helpjs-ravi/blob/master/images/lampada.jpg?raw=true" alt="Minha Foto" id="my-photo"/>
+    
+    <script type="text/javascript">
+     document.getElementById("my-photo").addEventListener("click", function(){
+     const mudarImg = document.getElementById("my-photo").src = 'https://github.com/gabrieldarezzo/helpjs-ravi/blob/master/images/lampada-on.jpg?raw=true';
+     return(mudarImg) 
+     })
+    </script>
+  
+
+</body>
+</html>

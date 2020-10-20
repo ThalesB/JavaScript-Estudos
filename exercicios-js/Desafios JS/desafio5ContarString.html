@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf8">
+</head>
+<body>
+<title> Desafio 5 </title>
+<p> Insira seu nome ! </p>
+<br/>
+<input type="text" name="inserir-nome" id="inserir-nome" placeholder="digite seu nome"/>
+<br/>
+<input type="button" id="btn-contar-nome" value="contar letras"/>
+<hr/>
+<script type="text/javascript">
+document.getElementById("btn-contar-nome").addEventListener("click", function(){
+   const contarString= document.getElementById("inserir-nome").value
+   alert('quantidade de caracteres é: '+contarString.length)
+})
+
+
+</script>
+
+
+</body>
+</html>
